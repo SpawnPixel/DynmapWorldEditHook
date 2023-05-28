@@ -1,0 +1,7 @@
+name: DynmapWorldeditHook
+version: '${project.version}'
+main: com.spawnpixel.mc.dynmapworldedithook.DynmapWorldeditHook
+api-version: 1.19
+depend:
+  - WorldEdit
+  - dynmap
