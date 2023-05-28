@@ -1,18 +1,15 @@
 package com.spawnpixel.mc.dynmapworldedithook;
 
-import com.sk89q.worldedit.EditSession;
 import com.sk89q.worldedit.IncompleteRegionException;
 import com.sk89q.worldedit.LocalSession;
 import com.sk89q.worldedit.WorldEdit;
 import com.sk89q.worldedit.event.extent.EditSessionEvent;
 import com.sk89q.worldedit.extension.platform.Actor;
-import com.sk89q.worldedit.extent.Extent;
 import com.sk89q.worldedit.math.BlockVector3;
 import com.sk89q.worldedit.regions.CuboidRegion;
 import com.sk89q.worldedit.regions.Region;
 import com.sk89q.worldedit.session.SessionManager;
 import com.sk89q.worldedit.util.eventbus.Subscribe;
-import com.sk89q.worldedit.util.formatting.text.TextComponent;
 import com.sk89q.worldedit.world.World;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
